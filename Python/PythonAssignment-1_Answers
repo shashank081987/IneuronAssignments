@@ -1,0 +1,82 @@
+Assignment Part-1 
+Q1. Why do we call Python as a general purpose and high-level programming language? 
+Ans. Python is an object-oriented, high-level programming language. Object-oriented means this language is based around objects (such as data) rather than functions, and high-level means it's easy for humans to understand.
+Q2. Why is Python called a dynamically typed language? 
+Ans. Python don't have any problem even if we don't declare the type of variable. It states the kind of variable in the runtime of the program
+Q3. List some pros and cons of Python programming language?
+Ans. Pros:- Easy to understand, has vast library 
+Q4. In what all domains can we use Python? 
+Ans. Development, Data Science, Data Engineering, Machine Learning, AI, Automation Testing
+Q5. What are variable and how can we declare them? 
+Ans. Variable are the names given to reference to the memory address that stores some value
+number = 45
+Q6. How can we take an input from the user in Python? 
+Ans. Input() function
+Q7. What is the default datatype of the value that has been taken as an input using input() function? 
+Ans. String
+Q8. What is type casting? 
+Ans. Converting one data type to another is type casting
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why? 
+Ans. Using num1, num2, num3 = input(“Enter three numbers”).split()
+Q10. What are keywords? 
+Ans. keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding.
+Q11. Can we use keywords as a variable? Support your answer with reason. 
+Ans. No, because keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding.
+Q12. What is indentation? What’s the use of indentaion in Python? 
+Ans. Indentation is used to highlight block of code
+Q13. How can we throw some output in Python? 
+Ans. Using print() function
+
+Q14. What are operators in Python? 
+Ans. Operators are used to perform operations on variables and values.
+Q15. What is difference between / and // operators? 
+Ans. ‘/’ is float division where as ‘//’ is integer division  
+Q16. Write a code that gives following as an output. iNeuroniNeuroniNeuroniNeuron 
+Ans. iNeuron * 4
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even. 
+Ans.
+print("Enter a number:")
+number = int(input())
+print(number)
+if(number % 2 == 0):
+    print("Entered number " + str(number) + " is even")
+else:
+    print("Entered number " + str(number) + " is odd")
+
+Q18. What are boolean operator? 
+Ans. True, False, Not, and, or are Boolean operators
+Q19. What will the output of the following? 1 or 0 0 and 0 True and False and True 1 or 0 or 0 
+Ans. 1 or 0 = 1
+0 and 0 = 0
+True and False and True = False
+1 or 0 or 0 = 1
+Q20. What are conditional statements in Python? 
+Ans. ‘if’, ‘elif’ and ‘else’ are conditional statements in python. They help in decision making.
+Q21. What is use of ‘if’, ‘elif’ and ‘else’ keywords? 
+Ans. ‘if’, ‘elif’ and ‘else’ are conditional statements in python. They help in decision making. 
+Q22. Write a code to take the age of person as an input and if age >= 18 display “I can vote”. If age is < 18 display “I can’t vote”. 
+Ans. 
+print("Enter the age of person:")
+age = int(input())
+if(age >= 18):
+    print("I can vote")
+else:
+    print("I can't vote")
+
+Q23. Write a code that displays the sum of all the even numbers from the given list. numbers = [12, 75, 150, 180, 145, 525, 50] 
+Ans. Required Topic not taught till now
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output. 
+Ans.
+num1, num2, num3 = input("Enter three nos.").split()
+num1 = int(num1)
+num2 = int(num2)
+num3 = int(num3)
+if (num1 >= num2) and (num1 >= num3):
+    print("Gretest no is num1")
+elif (num2 >= num1) and (num2 >= num3):
+    print("Gretest no is num2")
+else:
+    print("Gretest no is num3")
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions • The number must be divisible by five • If the number is greater than 150, then skip it and move to the next number • If the number is greater than 500, then stop the loop numbers = [12, 75, 150, 180, 145, 525, 50]
+Ans. Required Topic not taught till now
